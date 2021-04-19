@@ -6,7 +6,7 @@
        @scrolltolower="jiazai"  @refresherrefresh="shuaxin" refresher-enabled=true>
 	    <view class="srco">
 	      <view class="srcoitem" v-for="(item,index) in listinfo" :key="index">
-	        {{item.name}}
+	       <image mode="heightFix" :src="item.name"></image>
 	      </view>
 	      <uni-load-more :status="status" />
 	    </view>
@@ -138,6 +138,9 @@ scroll-view {
 	    background-color: #467b96;
 	    text-align: center;
 	  }
+    .srcoitem>image{
+      height: 100%;
+    }
     .app{
       position: fixed;
       top: 0;
