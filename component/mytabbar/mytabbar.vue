@@ -107,7 +107,7 @@
         if(this.selindex == index){
           return;
         }
-        uni.navigateTo({
+        uni.redirectTo({
           url:this.tabbarlist[index].path,
           fail(e) {
             console.log(e)

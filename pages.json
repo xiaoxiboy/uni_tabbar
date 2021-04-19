@@ -3,13 +3,16 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+        "autoBackButton":false,
+				"navigationBarTitleText": "uni-app",
+         "enablePullDownRefresh": false
 			}
 		}
 	    ,{
             "path" : "pages/mycenter/mycenter",
             "style" :                                                                                    
             {
+              "autoBackButton":false,
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
@@ -19,6 +22,7 @@
             "path" : "pages/cart/cart",
             "style" :                                                                                    
             {
+              "autoBackButton":false,
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
@@ -28,6 +32,7 @@
             "path" : "pages/classify/classify",
             "style" :                                                                                    
             {
+              "autoBackButton":false,
                 "navigationBarTitleText": "",
                 "enablePullDownRefresh": false
             }
